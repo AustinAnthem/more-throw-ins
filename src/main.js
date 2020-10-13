@@ -5,7 +5,7 @@ import VueGtag from "vue-gtag";
 Vue.config.productionTip = false
 
 Vue.use(VueGtag, {
-  config: { id: "UA-159211354-1" }
+  config: { id: "UA-159211354-2" }
 });
 
 new Vue({
