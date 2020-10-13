@@ -99,7 +99,7 @@ a:visited {
   }
   h1 {
     color: #000000;
-    font-size: 15px;
+    font-size: 30px;
   }
 }
 </style>
