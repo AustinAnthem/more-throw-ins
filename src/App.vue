@@ -38,6 +38,7 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 #app {
   font-family: Raleway, Paytone One, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
