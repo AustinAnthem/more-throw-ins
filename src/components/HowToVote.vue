@@ -90,6 +90,7 @@ h1 {
   display: flex;
   justify-content: center;
   width: 80%;
+  padding-bottom: 5px;
 }
 .countyname{
   text-align: center;

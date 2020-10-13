@@ -87,5 +87,10 @@ a:visited{
   padding-bottom: 20px;
   padding-top: 10px;
 }
-
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+.propseparatorright {
+  padding-left: 0px;
+}
+}
 </style>
