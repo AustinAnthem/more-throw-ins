@@ -83,6 +83,9 @@ a:visited {
   #maintable {
     display: flex;
     max-width: 100%;
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
   }
   table,
   thead,
@@ -91,6 +94,7 @@ a:visited {
   td,
   tr {
     display: block;
+    width: 100%;
   }
   td {
     /* Behave  like a "row" */
@@ -99,7 +103,7 @@ a:visited {
   }
   h1 {
     color: #000000;
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 </style>

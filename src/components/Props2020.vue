@@ -6,41 +6,42 @@
       height="auto"
       width="80%"
     />
-    <h1>
-      <a href="https://austinanthem.org">Austin Anthem</a> and <a href="https://losverdesatx.org">Los Verdes</a> support Austin's Proposition A and
-      Proposition B.
-    </h1>
-    <br>
-        <table id="propsigns">
+    <br />
+    <br />
+    <div class="header">
+      <a href="https://austinanthem.org">Austin Anthem</a> and
+      <a href="https://losverdesatx.org">Los Verdes</a> support Austin's
+      Proposition A and Proposition B.
+    </div>
+    <br />
+    <table id="propsigns">
       <tr>
-        <td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <table id="PropInfo">
+      <tr class="propseparator">
+        <td class="propsign">
           <a href="https://www.transitnowatx.com/">
             <img
               alt="Prop A sign"
               src="../assets/prop-a-yard-sign.jpg"
               height="auto"
-              width="100%"
+              width="95%"
           /></a>
         </td>
-        <td>
-          <a href="https://www.safemobilityforall.org/">
-            <img
-              alt="Prop B sign"
-              src="../assets/prop-b-yard-sign.jpg"
-              height="auto"
-              width="100%"
-            />
-          </a>
-        </td>
-      </tr>
-    </table>
-    <table id="PropInfo">
-      <tr class="propseparator">
         <td class="propseparatorleft"><h2>What is Proposition A?</h2></td>
         <td class="propseparatorright">
           Proposition A is the $7.2b plan to add three new rail lines and an
           expanded, all-electric bus fleet with more rapid lines across the
-          city. Included in this plan is a new Red Line station directly on the stadium grounds at McKalla Place, with all three new rail lines connecting directly to the Red Line for matchday travel ease.<br />
+          city. Included in this plan is a new Red Line station directly on the
+          stadium grounds at McKalla Place, with all three new rail lines
+          connecting directly to the Red Line for matchday travel ease.<br />
           <b
             >We support this proposition because we believe it's time for a bold
             investment in the future of Austin's transit system.</b
@@ -59,6 +60,15 @@
         </td>
       </tr>
       <tr>
+        <td class="propsign">
+          <a href="https://www.safemobilityforall.org/">
+            <img
+              alt="Prop B sign"
+              src="../assets/prop-b-yard-sign.jpg"
+              height="auto"
+              width="95%"
+          /></a>
+        </td>
         <td class="propseparatorleft"><h2>What is Proposition B?</h2></td>
         <td class="propseparatorright">
           Proposition B will build new trails, sidewalks, and safer streets
@@ -70,7 +80,8 @@
             >We support this proposition because now more than ever, we believe
             that having an active transport network for our entire city makes us
             a safer, healther Austin.</b
-          > This is an investment for our generation and the next.
+          >
+          This is an investment for our generation and the next.
           <br />
           Learn more about Proposition B at the
           <a href="https://www.safemobilityforall.org/"
@@ -82,8 +93,8 @@
   </div>
 </template>
 <style scoped>
-html  a:link,
-a:visited{
+html a:link,
+a:visited {
   color: #ffffff;
 }
 #PropInfo {
@@ -94,6 +105,23 @@ a:visited{
   justify-content: center;
   border-collapse: collapse;
   width: 80%;
+}
+.header {
+  font-size: 50px;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  font-family: Paytone One;
+}
+.propsign {
+  border-top: 5px solid black;
+  padding-top: 3px;
+  padding-right: 10px;
+  padding-left: 10px;
+  justify-content: center;
 }
 .propseparatorright {
   border-top: 5px solid black;
@@ -120,8 +148,20 @@ a:visited{
 }
 @media only screen and (max-width: 760px),
   (min-device-width: 768px) and (max-device-width: 1024px) {
-.propseparatorright {
-  padding-left: 0px;
-}
+  #PropInfo {
+    width: 100%;
+  }
+  .propseparatorright {
+    padding-left: 0px;
+    text-align: center;
+  }
+  .propsign {
+    border-top: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .header {
+    font-size: 30px;
+  }
 }
 </style>

@@ -1,6 +1,5 @@
 <template>
   <div id="voterinfo">
-
     <table id="voterinfotable">
       <tr>
         <h1>Voter Information</h1>
@@ -100,6 +99,9 @@ a:visited {
 h1 {
   color: #00b140;
 }
+th {
+  color: #00b140;
+}
 #countytable {
   background-color: black;
   text-align: center;
@@ -108,6 +110,12 @@ h1 {
   display: flex;
   justify-content: center;
   width: 80%;
+  padding-bottom: 5px;
+}
+#countytable tr {
+  background-color: black;
+  text-align: center;
+  justify-content: center;
   padding-bottom: 5px;
 }
 .countyname {
@@ -121,5 +129,33 @@ h1 {
   background-color: #00b140;
   font-weight: 800;
   font-size: 20px;
+}
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  #voterinfotable {
+    width: 100%;
+  }
+  #countytable {
+    width: 100%;
+  }
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+    width: 100%;
+    border-right: 3px;
+  }
+  #countytable tr {
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    width: 94%;
+    padding-right: 3%;
+    padding-left: 3%;
+  }
 }
 </style>
