@@ -11,6 +11,29 @@
       Proposition B.
     </h1>
     <br>
+        <table id="propsigns">
+      <tr>
+        <td>
+          <a href="https://www.transitnowatx.com/">
+            <img
+              alt="Prop A sign"
+              src="../assets/prop-a-yard-sign.jpg"
+              height="auto"
+              width="100%"
+          /></a>
+        </td>
+        <td>
+          <a href="https://www.safemobilityforall.org/">
+            <img
+              alt="Prop B sign"
+              src="../assets/prop-b-yard-sign.jpg"
+              height="auto"
+              width="100%"
+            />
+          </a>
+        </td>
+      </tr>
+    </table>
     <table id="PropInfo">
       <tr class="propseparator">
         <td class="propseparatorleft"><h2>What is Proposition A?</h2></td>
@@ -86,6 +109,14 @@ a:visited{
   text-align: center;
   padding-bottom: 20px;
   padding-top: 10px;
+}
+#propsigns {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  max-width: 80%;
 }
 @media only screen and (max-width: 760px),
   (min-device-width: 768px) and (max-device-width: 1024px) {

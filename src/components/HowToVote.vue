@@ -1,19 +1,31 @@
 <template>
-<div>
+  <div id="voterinfo">
+
     <table id="voterinfotable">
       <tr>
         <h1>Voter Information</h1>
-        City of Austin residents have their elections overseen by Travis County or Williamson County. If you live
-        outside the City of Austin, you won't be able to vote on these
-        propositions - but it's still hugely important to vote the entire
-        ballot, and encourage your Austin friends to consider these propositions.
+        <h2><u>Early Voting:</u> October 13 - 30th</h2>
+        <h2><u>Election Day:</u> November 3rd</h2>
+        <br />
+        City of Austin residents have their elections overseen by Travis County
+        or Williamson County. If you live outside the City of Austin, you won't
+        be able to vote on these propositions - but it's still hugely important
+        to vote the entire ballot, and encourage your Austin friends to consider
+        these propositions.
+        <br /><br /><i
+          >Travis County and Williamson County residents may vote anywhere in
+          their county of residence.</i
+        >
+        <br />If you live in a different county, please check with your county's
+        election authority to confirm eligibility.
+        <br />
       </tr>
     </table>
     <table id="countytable">
       <tr>
         <table>
-            <th>County</th>
-            <th>Elections Info</th>
+          <th>County</th>
+          <th>Elections Info</th>
           <tr>
             <td class="countyname">Travis County</td>
             <td class="countyurl">
@@ -48,35 +60,41 @@
           </tr>
           <tr>
             <td class="countyname">Bastrop County</td>
-            <td class="countyurl"><a href="https://www.bastropvotes.org/">BastropVotes</a></td>
+            <td class="countyurl">
+              <a href="https://www.bastropvotes.org/">BastropVotes</a>
+            </td>
           </tr>
           <th>Other Region</th>
           <th>Voting Information</th>
           <tr>
-              <td class="countyname">State of Texas</td>
-              <td class="countyurl"><a href="https://www.votetexas.gov/">VoteTexas</a></td>
+            <td class="countyname">State of Texas</td>
+            <td class="countyurl">
+              <a href="https://www.votetexas.gov/">VoteTexas</a>
+            </td>
           </tr>
           <tr>
-              <td class="countyname">United States</td>
-              <td class="countyurl"><a href="https://www.vote411.org">Vote411</a></td>
+            <td class="countyname">United States</td>
+            <td class="countyurl">
+              <a href="https://www.vote411.org">Vote411</a>
+            </td>
           </tr>
         </table>
       </tr>
     </table>
-    </div>
+  </div>
 </template>
 <style scoped>
 #voterinfotable {
   background-color: black;
   text-align: center;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   justify-content: center;
   width: 80%;
-
 }
-html a:link, a:visited {
+html a:link,
+a:visited {
   color: #000000;
 }
 h1 {
@@ -85,20 +103,20 @@ h1 {
 #countytable {
   background-color: black;
   text-align: center;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   justify-content: center;
   width: 80%;
   padding-bottom: 5px;
 }
-.countyname{
+.countyname {
   text-align: center;
   background-color: #00b140;
   font-weight: 800;
-  font-size: 20px
+  font-size: 20px;
 }
-.countyurl{
+.countyurl {
   text-align: center;
   background-color: #00b140;
   font-weight: 800;
