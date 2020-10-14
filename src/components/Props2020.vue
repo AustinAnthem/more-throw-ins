@@ -14,16 +14,6 @@
       Proposition A and Proposition B.
     </div>
     <br />
-    <table id="propsigns">
-      <tr>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-      </tr>
-    </table>
     <table id="PropInfo">
       <tr class="propseparator">
         <td class="propsign">
@@ -90,6 +80,21 @@
         </td>
       </tr>
     </table>
+    <table id="statements">
+      <tr>
+        <td>
+          Read our joint voter's guide to the 2020 elections on the
+          <a href="https://www.losverdesatx.org/blog/2020-voting-guide"
+            >Los Verdes Blog</a
+          >
+          and the
+          <a
+            href="https://medium.com/austinanthem/2020-austin-soccer-voters-guide-233cd6f8ef50?source=friends_link&sk=92e2e382a164e9b52a379e54e3c30f4a"
+            >Austin Anthem Medium</a
+          >.
+        </td>
+      </tr>
+    </table>
   </div>
 </template>
 <style scoped>
@@ -104,6 +109,7 @@ a:visited {
   display: relative;
   justify-content: center;
   border-collapse: collapse;
+  border-bottom: 5px solid black;
   width: 80%;
 }
 .header {
@@ -146,6 +152,22 @@ a:visited {
   justify-content: center;
   max-width: 80%;
 }
+#statements {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  color: black;
+  background-color: white;
+}
+#statements a:visited {
+  color: black;
+}
+#statements a:link {
+  color: black;
+}
 @media only screen and (max-width: 760px),
   (min-device-width: 768px) and (max-device-width: 1024px) {
   #PropInfo {
@@ -162,6 +184,9 @@ a:visited {
   }
   .header {
     font-size: 30px;
+  }
+  #statements {
+    width: 100%;
   }
 }
 </style>
