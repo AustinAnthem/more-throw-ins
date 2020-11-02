@@ -83,6 +83,17 @@
     <table id="statements">
       <tr>
         <td>
+          <a href="https://www.capmetro.org/project-connect">
+            <img
+              alt="McKalla Station"
+              src="../assets/mckallastation.jpg"
+              height="400px"
+              width="auto"
+          /></a>
+          <br />
+          <i>Image courtesy of CapMetro</i>
+          <br />
+          <br />
           Read our joint voter's guide to the 2020 elections on the
           <a href="https://www.losverdesatx.org/blog/2020-voting-guide"
             >Los Verdes Blog</a
@@ -92,6 +103,7 @@
             href="https://medium.com/austinanthem/2020-austin-soccer-voters-guide-233cd6f8ef50?source=friends_link&sk=92e2e382a164e9b52a379e54e3c30f4a"
             >Austin Anthem Medium</a
           >.
+          <br />
         </td>
       </tr>
     </table>
