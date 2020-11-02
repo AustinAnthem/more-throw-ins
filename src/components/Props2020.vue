@@ -91,7 +91,7 @@
               width="auto"
           /></a>
           <br />
-          <i>Image courtesy of CapMetro</i>
+          An artist's rendering of the new station at McKalla Place, which is part of Prop A. <i>Image courtesy of CapMetro</i>
           <br />
           <br />
           Read our joint voter's guide to the 2020 elections on the
